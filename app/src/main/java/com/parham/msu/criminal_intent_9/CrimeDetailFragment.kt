@@ -12,7 +12,7 @@ import java.util.UUID
 
 class CrimeDetailFragment : Fragment() {
 
-    private lateinit var crime: Crime
+    lateinit var crime: Crime
     //private lateinit var binding: FragmentCrimeDetailBinding
     private var _binding :FragmentCrimeDetailBinding? = null
 
