@@ -1,4 +1,4 @@
-package com.parham.msu.criminal_intent_9
+package com.parham.msu.photogallery
 
 import org.junit.Test
 

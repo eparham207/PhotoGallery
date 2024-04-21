@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.parham.msu.criminal_intent_9"
+    namespace = "com.parham.msu.photogallery"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.parham.msu.criminal_intent_9"
+        applicationId = "com.parham.msu.photogallery"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -45,6 +45,9 @@ dependencies {
     implementation("com.google.android.material:material:1.11.0")
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
     implementation("androidx.fragment:fragment-ktx:1.6.2")
+    implementation("androidx.recyclerview:recyclerview:1.3.2")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0")
+    implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.7.0")
     testImplementation("junit:junit:4.12")
     testImplementation("junit:junit:4.12")
     debugImplementation ("androidx.fragment:fragment-testing:1.4.1")

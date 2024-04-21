@@ -1,4 +1,4 @@
-package com.parham.msu.criminal_intent_9
+package com.parham.msu.photogallery
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
